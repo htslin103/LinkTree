@@ -1,0 +1,50 @@
+/* Custom styles here */
+
+a:hover, a:active{
+    color:blue;
+}
+
+.parent-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:red;
+    padding: 50px;
+}
+
+a:hover,a:link,a:active,a:visited {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.link-container{
+    margin: 10px;
+    border-radius: 20px;   
+    padding: 10px;
+    width:50%;
+    text-align: center;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.link-container:hover{
+    background-color: blue !important; /* Change color to blue on hover */
+}
+
+.link-colors{
+    background-color: purple;
+    color:white;
+}
+
+.link-container a{
+    font-size: 50px;
+    color:white;
+}
+
+.name-Header{
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+}

@@ -1,10 +1,36 @@
 /* Custom styles here */
-.body{
-    background-image: url("/images/PalmTree.jpg");
-    background-color: #cccccc;
+body{
+    background-color: rgb(160, 160, 160);
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    background-image: url(../images/PalmTree.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+@media (max-width: 1200px) {
+    .link-container {
+        width: 90%; /* Increase the width on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .link-container {
+        width: 95%; /* Almost full width on small screens */
+    }
+}
+
+a:hover,a:link,a:active,a:visited {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
 a:hover, a:active{
     color:blue;
+}
+
+a:visited{
+    text-decoration: none;
 }
 
 .parent-container{
@@ -12,23 +38,30 @@ a:hover, a:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    height: 100vh;
+    width: 100%;
 }
 
-a:hover,a:link,a:active,a:visited {
-    text-decoration: none; /* Ensure no underline on hover */
+.name-Header{
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin:0;
+    padding: 10px 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .link-container{
     margin: 10px;
     border-radius: 20px;   
+    border: 1px solid white;
     padding: 10px;
-    width:50%;
+    width: 80%;
     text-align: center;
-}
-
-a:visited{
-    text-decoration: none;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .link-container:hover{
@@ -36,17 +69,11 @@ a:visited{
 }
 
 .link-colors{
-    background-color: grey;
+    background-color: rgb(93, 87, 87);
     color:white;
 }
 
 .link-container a{
     font-size: 50px;
     color:white;
-}
-
-.name-Header{
-    font-size: 100px;
-    align-items: center;
-    text-align: center;
 }

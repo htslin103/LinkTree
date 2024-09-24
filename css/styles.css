@@ -1,5 +1,8 @@
 /* Custom styles here */
-
+.body{
+    background-image: url("/images/PalmTree.jpg");
+    background-color: #cccccc;
+}
 a:hover, a:active{
     color:blue;
 }
@@ -9,7 +12,6 @@ a:hover, a:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:red;
     padding: 50px;
 }
 
@@ -30,11 +32,11 @@ a:visited{
 }
 
 .link-container:hover{
-    background-color: blue !important; /* Change color to blue on hover */
+    background-color: lightgray !important; /* Change color to blue on hover */
 }
 
 .link-colors{
-    background-color: purple;
+    background-color: grey;
     color:white;
 }
 

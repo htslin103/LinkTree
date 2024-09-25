@@ -4,9 +4,7 @@ body{
     height: 100vh;
     width: 100%;
     font-family: sans-serif;
-    background-image: url(../images/PalmTree.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color: teal;
 }
 
 @media (max-width: 1200px) {
@@ -35,29 +33,41 @@ a:visited{
 
 .parent-container{
     display:flex;
-    flex-direction: column;
+    align-content: center;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    width: 100%;
+    margin: 60px;
 }
 
 .name-Header{
-    font-size: 100px;
-    align-items: center;
-    text-align: center;
+    font-size: 75px;
     color: white;
     margin:0;
-    padding: 10px 0;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.icon-styling{
+    text-align: left;
+    margin: 10px;
+}
+
+.desc{
+    color: white;
+}
+
+.profileImage{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
 
 .link-container{
     margin: 10px;
     border-radius: 20px;   
-    border: 1px solid white;
     padding: 10px;
-    width: 80%;
+    width: 50%;
     text-align: center;
     overflow-wrap: break-word;
     box-sizing: border-box;
@@ -65,15 +75,13 @@ a:visited{
 }
 
 .link-container:hover{
-    background-color: lightgray !important; /* Change color to blue on hover */
+    background-color: lightgray; /* Change color to blue on hover */
 }
 
 .link-colors{
-    background-color: rgb(93, 87, 87);
-    color:white;
+    background-color: white;
 }
 
 .link-container a{
-    font-size: 50px;
-    color:white;
+    color:black;
 }

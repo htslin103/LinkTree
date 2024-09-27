@@ -16,7 +16,6 @@ html, body {
 body{
     background-color: rgb(160, 160, 160);
     height: 100vh;
-    width: 100%;
     font-family: sans-serif;
     background-color: teal;
 }
@@ -52,10 +51,6 @@ a:hover,a:link,a:active,a:visited {
     text-decoration: none; /* Ensure no underline on hover */
 }
 
-a:visited{
-    text-decoration: none;
-}
-
 a.fill-div {
     display: block;
     height: 100%;
@@ -73,7 +68,6 @@ a.fill-div {
 
 nav{
     width: 40%;
-    box-sizing: border-box;
 }
 
 .name-Header{

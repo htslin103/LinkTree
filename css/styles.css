@@ -24,18 +24,22 @@ body{
 /* mobile */
 @media screen and (max-width: 480px) {
     body .name-Header{
-        font-size: 1.5rem;
+        font-size: 75px;
     }
     body .desc{
-        font-size: 1rem;
+        font-size: 30px;
     }
     .link-container{
         width: 90%;
     }
+
+    body {
+        background-color: red !important; /* Force red background */
+    }
 }
 
 /* larger*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 480px){
     body .name-Header{
         font-size: 3rem;
     }

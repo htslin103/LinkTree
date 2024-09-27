@@ -21,24 +21,26 @@ body{
     background-color: teal;
 }
 
-@media (max-width: 1200px) {
-    .link-container {
-        width: 90%; /* Increase the width on smaller screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .link-container {
-        width: 95%; /* Almost full width on small screens */
-    }
-}
-
-@media screen and (max-width: 768px) {
-    body .desc{
-        font-size: 3vw;
-    }
+/* mobile */
+@media screen and (max-width: 480px) {
     body .name-Header{
-        font-size: 5vw;
+        font-size: 1.5rem;
+    }
+    body .desc{
+        font-size: 1rem;
+    }
+    .link-container{
+        width: 90%;
+    }
+}
+
+/* larger*/
+@media screen and (min-width: 768px){
+    body .name-Header{
+        font-size: 3rem;
+    }
+    body .desc{
+        font-size: 30px;
     }
 }
 
@@ -85,7 +87,7 @@ nav{
 }
 
 .desc{
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: white;
     text-shadow: -1px 0 black, 0 .5px black, .5px 0 black, 0 -1px black;
 }
@@ -119,5 +121,3 @@ nav{
 .link-container a{
     color:black;
 }
-
-

@@ -24,10 +24,6 @@ a:hover,a:link,a:active,a:visited {
     text-decoration: none; /* Ensure no underline on hover */
 }
 
-a:hover, a:active{
-    color:blue;
-}
-
 a:visited{
     text-decoration: none;
 }
@@ -100,29 +96,4 @@ nav{
 
 .link-container a{
     color:black;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-}
-table {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-th {
-    background-color: #f4f4f4;
-}
-td {
-    height: 50px;
-}
-.today {
-    background-color: #ffeb3b;
 }

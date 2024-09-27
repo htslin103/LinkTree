@@ -33,6 +33,15 @@ body{
     }
 }
 
+@media screen and (max-width: 768px) {
+    body .desc{
+        font-size: 3vw;
+    }
+    body .name-Header{
+        font-size: 5vw;
+    }
+}
+
 a:hover,a:link,a:active,a:visited {
     text-decoration: none; /* Ensure no underline on hover */
 }
@@ -110,3 +119,5 @@ nav{
 .link-container a{
     color:black;
 }
+
+
